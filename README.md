@@ -8,6 +8,12 @@ curl を使ってインストール
 $ curl -s "https://laravel.build/api" | bash
 ```
 
+ポート番号 8000 で起動するよう.env に追記
+
+```
+APP_PORT=8000
+```
+
 起動
 
 ```
